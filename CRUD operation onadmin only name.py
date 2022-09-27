@@ -24,7 +24,7 @@ def delete():
        
 if name in admin:
     print(f"welcome {name}")
-    print(admin)
+    print(" Updated ==> ",admin)
     option = int(input("Enter your option: 1- update  2- add new admin 3- delete admin: "))
     if option == 1:
         put()
