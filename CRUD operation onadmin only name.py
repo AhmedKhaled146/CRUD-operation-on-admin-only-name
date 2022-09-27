@@ -20,11 +20,11 @@ def add():
         
 def delete():
     admin.remove(admin[admin.index(name)])
-    print(admin)
+    print("Updated ==>", admin)
        
 if name in admin:
     print(f"welcome {name}")
-    print(" Updated ==> ",admin)
+    print(admin)
     option = int(input("Enter your option: 1- update  2- add new admin 3- delete admin: "))
     if option == 1:
         put()
